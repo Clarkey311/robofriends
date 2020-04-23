@@ -12,6 +12,8 @@ import { createLogger } from 'redux-logger';
 const logger = createLogger();
 const store = createStore(searchRobots, applyMiddleware(logger))
 
+
+//GIT TESTER 
 ReactDOM.render(
     <Provider store={store}>
       <App />
